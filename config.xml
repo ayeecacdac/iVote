@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.multimodetor.www"
+        versionCode = "1" 
+        version     = "1.0.1" >
+        <name>iVote!</name>
+        <description>
+           Electronic Voting App For CIT
+        </description>
+        <author email="jvlabengona@gmail.com" href="http://www.facebook.com/jovicabengona">
+            Jovic Abengona
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <allow-navigation href="*" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="ldpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="mdpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="hdpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+        <preference name="debuggable" value="false"/>
+        <plugin name="cordova-plugin-whitelist" spec="1.3.0" source="npm" />
+        <plugin name="cordova-plugin-inappbrowser" spec="1.5.0" source="npm" />
+        <plugin name="cordova-plugin-device" spec="1.1.3" source="npm" />
+    
+    </widget>
